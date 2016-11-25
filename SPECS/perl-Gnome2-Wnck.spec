@@ -1,6 +1,6 @@
 Name:           perl-Gnome2-Wnck
 Version:        0.16
-Release:        20%{?dist}
+Release:        21%{?dist}
 Summary:        Perl interface to the Window Navigator Construction Kit
 License:        LGPLv2+
 Group:          Development/Libraries
@@ -57,6 +57,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*.3*
 
 %changelog
+* Fri Nov 25 2016 Ricardo Arguello <rarguello@deskosproject.org> - 0.16-21
+- Rebuilt for DeskOS
+
 * Sat Aug 03 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.16-20
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_20_Mass_Rebuild
 
